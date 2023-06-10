@@ -11,25 +11,25 @@ const SecondsCounter = (props) => {
 
 			<div className="counter-box text-center">
 				<span>
-					{secondsArr.length > 1 ? secondsArr[secondsArr.length - 6] : 0}
+					{secondsArr.length > 5 ? secondsArr[secondsArr.length - 6] : 0}
 				</span>
 			</div>
 
 			<div className="counter-box text-center">
 				<span>
-					{secondsArr.length > 1 ? secondsArr[secondsArr.length - 5] : 0}
+					{secondsArr.length > 4 ? secondsArr[secondsArr.length - 5] : 0}
 				</span>
 			</div>
 
 			<div className="counter-box text-center">
 				<span>
-					{secondsArr.length > 1 ? secondsArr[secondsArr.length - 4] : 0}
+					{secondsArr.length > 3 ? secondsArr[secondsArr.length - 4] : 0}
 				</span>
 			</div>
 
 			<div className="counter-box text-center">
 				<span>
-					{secondsArr.length > 1 ? secondsArr[secondsArr.length - 3] : 0}
+					{secondsArr.length > 2 ? secondsArr[secondsArr.length - 3] : 0}
 				</span>
 			</div>
 
@@ -41,7 +41,7 @@ const SecondsCounter = (props) => {
 
 			<div className="counter-box text-center">
 				<span>
-					{secondsArr[secondsArr.length - 2]} 
+					{secondsArr[secondsArr.length - 1]} 
 				</span>
 			</div>
 		</div>

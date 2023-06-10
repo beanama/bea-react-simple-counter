@@ -10,12 +10,12 @@ import Home from "./component/home.jsx";
 import SecondsCounter from "./component/secondsCounter.jsx"
 
 //definir nº de segundos
-let seconds = 0;
+let counter = 0;
 
 //Definimos la función a ejecutar
 function renderCounter() {
-    ReactDOM.render(<SecondsCounter seconds={seconds} />,document.querySelector("#app"));
-    seconds++;
+    ReactDOM.render(<SecondsCounter seconds={counter} />,document.querySelector("#app"));
+    counter++;
 }
 
 //Definimos el cuándo ejecutar la función
