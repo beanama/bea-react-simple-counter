@@ -7,7 +7,7 @@ const SecondsCounter = (props) => {
 	let secondsArr = Array.from(String(props.seconds));
 
 	return (
-		<div className="d-flex justify-content-center p-4">
+		<div className="counter d-flex justify-content-center p-4">
 
 			<div className="counter-box text-center">
 				<span>
